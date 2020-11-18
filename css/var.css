@@ -1,0 +1,10 @@
+:root {
+    --redhat: "Red Hat Text", sans-serif;
+    --darkgray: rgba(189, 186, 181, 0.5);
+    --darkBlue: #1B2056;
+    --pink: #EE1EC0;
+    --electrican: #451DE4;
+    --gray :#bdbab5;
+    --darkgray: rgba(255,255,255,0.6);
+    --shadow: rgba(255,255,255,0.2);
+}
