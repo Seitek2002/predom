@@ -1,0 +1,63 @@
+.header {
+    padding-top: 18px;
+}
+.logo {
+    font-family: 'Adobe Garamond Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #F5F6FF;
+}
+.logo__purple {
+    color: #EE1EC0;
+}
+.nav__menu , 
+.nav__search,
+.header__auth {
+    align-items: center;
+}
+.header__auth{
+    margin-left: 43px;
+}
+.auth__btn{
+    margin-right: 22px;
+}
+.nav__menu {
+    margin-left: 35px;
+    padding-left: 35px;
+    border-left: 2px solid white;
+}
+.nav__item {
+    margin-right: 50px;
+}
+.search__label{
+    position: relative;
+    padding: 0 65px 2px;
+    display: flex;
+    align-items: center;
+    margin-left: 94px;
+    background: var(--gray);
+    border-radius: 37px;
+    max-width: 364px;
+    height: 100%;
+}
+.search__bar{
+    font-family: 'Souliyo Unicode', sans-serif;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--darkGray);
+    font-weight: 400;
+}
+.search__icon{
+    position: absolute;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+::placeholder{
+    color: var(--darkgray);
+}
