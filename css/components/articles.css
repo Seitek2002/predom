@@ -1,0 +1,49 @@
+.articles{
+    height: 700px;
+}
+.col-8{
+    border-radius: 22px;
+    height: calc(240px * 2.53);
+    background: url(../../img/games/articles-1.png) center no-repeat;
+}
+.item__box1{
+    background: url(../../img/games/articles-2.png)center no-repeat;
+}
+.item__box2{
+    background: url(../../img/games/articles-3.png)center no-repeat;
+}
+.articles__item,
+.articles__item2{
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.articles__item{
+    padding: 0 45px 0 43px;
+}
+.articles__item2{
+    padding-left: 22px;
+}
+.articles__title{
+    font-size: 27px;
+    padding: 0;
+    margin: 0;
+}
+.articles__discription{
+    padding: 0;
+    margin: 0;
+    opacity: 0.6;
+    font-size: 20px;
+}
+.item__box1,
+.item__box2{
+    font-size: 27px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0 22px;
+}
